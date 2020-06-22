@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/news10"
+        android:title="10 новостей" />
+    <item
+        android:id="@+id/news25"
+        android:title="25 новостей" />
+    <item
+        android:id="@+id/news50"
+        android:title="50 новостей" />
+    <item
+        android:id="@+id/news75"
+        android:title="75 новостей" />
+</menu>

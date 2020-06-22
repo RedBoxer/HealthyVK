@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/authorize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Авторизация"
+        />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Текст для записи на стену" />
+    <Button
+        android:id="@+id/post"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить запись на стену"
+        />
+
+    <ImageView
+        android:id="@+id/prPic"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/prName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/FriendssBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFriendsClick"
+        android:text="Друзья" />
+
+    <Button
+        android:id="@+id/News"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onNewsClick"
+        android:text="новости" />
+
+    <Button
+        android:id="@+id/tracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTrackingClick"
+        android:text="Настройки отслеживания" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Выход" />
+
+</LinearLayout>
